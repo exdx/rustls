@@ -11,6 +11,7 @@ use ring::rand::{SecureRandom, SystemRandom};
 use std::fmt;
 use std::sync::Arc;
 
+pub(crate) mod hash;
 pub(crate) mod hmac;
 
 /// Default crypto provider.
