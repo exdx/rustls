@@ -12,6 +12,7 @@ use ring::rand::{SecureRandom, SystemRandom};
 use std::fmt;
 use std::sync::Arc;
 
+pub(crate) mod anchors;
 pub(crate) mod client;
 pub(crate) mod hash;
 pub(crate) mod hmac;
